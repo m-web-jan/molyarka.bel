@@ -858,6 +858,8 @@ label, a{ /*при наведении на стрелки или переклю�
     /* НАВИГАЦИЯ ДЛЯ ТЕЛЕФОНА */
     .phone-navbar{
         display: block;
+        width: 100%;
+        position: fixed;
     }
     .header{
         display: none;
@@ -872,16 +874,16 @@ label, a{ /*при наведении на стрелки или переклю�
     }
     .intro__title{
         height: 60px;
-        font-size: 25px;
+        font-size: 23px;
         line-height: 30px;
-        width: 390px;
+        width: 360px;
         text-align: center;
-        margin-top: 15px;
+        margin-top: 55px;
     }
     .intro__subtitle{
         font-size: 20px;
         line-height: 28px;
-        width: 390px;
+        width: 360px;
         height: 150px;
         text-align: center;
     }
@@ -936,7 +938,7 @@ label, a{ /*при наведении на стрелки или переклю�
         width: 170px;
     }
     .social__text{
-        width: 170px;
+        width: 175px;
         height: 27px;
         margin-left: 0px;
         margin-top: 0px;
@@ -959,7 +961,7 @@ label, a{ /*при наведении на стрелки или переклю�
     
     
     .dark__style{
-        width: 198px;
+        width: 205px;
         height: 41px;
         font-size: 36px;
         line-height: 57px;
