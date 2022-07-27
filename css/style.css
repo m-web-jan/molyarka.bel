@@ -382,7 +382,7 @@ body{
 }
 
 .header{
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100%;
@@ -455,7 +455,9 @@ body{
     text-decoration: none;
     color:#000;
 }
-
+.phone-navbar{
+    display: none;
+}
 .header__link1{
     font-family: 'Oswald', sans-serif;
     max-width: 79px;
@@ -853,19 +855,139 @@ label, a{ /*при наведении на стрелки или переклю�
 
 
 @media screen and (max-width: 576px) {
-    .header__item{
-        margin-right: 92px;
-        margin-top: 0px;
+    /* НАВИГАЦИЯ ДЛЯ ТЕЛЕФОНА */
+    .phone-navbar{
+        display: block;
     }
-
-    
-    
-    
-    .clock{
+    .header{
         display: none;
     }
+    /* НАВИГАЦИЯ ДЛЯ ТЕЛЕФОНА */
+
+    /* ГЛАВНАЯ СТРАНИЦА */
+    .intro{
+        background-color: white;
+        background-image: url();
+        padding-top: 10px;
+    }
+    .intro__title{
+        height: 60px;
+        font-size: 25px;
+        line-height: 30px;
+        width: 390px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .intro__subtitle{
+        font-size: 20px;
+        line-height: 28px;
+        width: 390px;
+        height: 150px;
+        text-align: center;
+    }
+    .kluch{
+        margin-left: auto;
+        margin-right: auto;
+        width: 330px;
+    }
+    .img__kluch{
+        width: 135px;
+        height: 148px;
+    }
+    .kluch__info1{
+        width: 195px;
+        height: 143px;
+        
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 38px;
+        display: grid;
+        margin-left: 20px;
+    }
+
+    .dril{
+        margin-left: auto;
+        margin-right: auto;
+        width: 330px;
+    }
+    .dril__info1{
+        width: 206px;
+        height: 220px;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .img__dril{
+        width: 124px;
+        height: 138px;
+    }
+    .button{
+        margin-left: auto;
+        margin-right: auto;
+        width: 211px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .social{
+        margin-left: auto;
+        margin-right: auto;
+        width: 170px;
+    }
+    .social__text{
+        width: 170px;
+        height: 27px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .vk{
+        margin-left: auto;
+        margin-right: auto;
+        width: 49px;
+    }
+    .instagram{
+        margin-left: auto;
+        margin-right: auto;
+        width: 49px;
+    }
+    .social__photo{
+        margin-left: 25px;
+    }
+    /* ГЛАВНАЯ СТРАНИЦА */
+    
+    
+    
+    .dark__style{
+        width: 198px;
+        height: 41px;
+        font-size: 36px;
+        line-height: 57px;
+        padding: 27px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .dark2__style{
+        width: 139px;
+        height: 41px;
+        font-size: 36px;
+        padding: 33px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .dark3__style{
+        width: 156px;
+        height: 41px;
+        font-size: 36px;
+        padding: 33px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
+
+
+    
 
 
 
