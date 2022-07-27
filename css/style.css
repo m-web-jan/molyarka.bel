@@ -397,12 +397,17 @@ body{
     justify-content: space-between;
     vertical-align: center;
 }
-
+.header__logo{
+    padding-right: 25px;
+}
 .header__logo-pic{
     width: 180px;
+    margin-bottom: 15px;
 }
 
 .clock{
+    margin-left: 100px;
+    padding-right: 20px;
     max-width: 250px;
     font-family: 'Oswald', sans-serif;
     font-style: normal;
@@ -411,6 +416,8 @@ body{
 }
 
 .number{
+    margin-left: 50px;
+    margin-right: 100px;
     max-width: 330px;
     max-height: 39px;
     font-family: 'Oswald', sans-serif;
@@ -422,10 +429,14 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-
+.panel-nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
 .header__item{
     margin-right: 92px;
-    margin-top: 28px;
+    margin-top: 10px;
 }
 
 .header__item:last-child{
@@ -842,45 +853,98 @@ label, a{ /*при наведении на стрелки или переклю�
 
 
 @media screen and (max-width: 576px) {
-    .kontakt1{
-        margin-left: 100px;
+    .header__item{
+        margin-right: 92px;
+        margin-top: 0px;
     }
-    .vidy__works{
-        background-color: #EAD835;
+
+    
+    
+    
+    .clock{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+    .kontakt1{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
     .wrapper{
-        max-width: 576px;
+        /* max-width: 576px; */
         margin: 0 auto;
     }
+
+
+    /* ВИДЫ РАБОТ */
     .img__works{
-        margin-top: 20px;
-        margin-left: 10%;
+        display: none;
     }
-
-
-
+    .work__info{
+        
+        margin-left: auto;
+        margin-right: auto;
+        width: 5em;
+    }
     .vid__work{
-        margin-left: 80px;
+        margin-left: 10px;
+        font-weight: 600;
+        font-size: 24px;
+        width: 250px;
     }
     .vid__work1{
-        margin-left: 94px;
+        margin-left: 24px;
+        font-weight: 600;
+        font-size: 24px;
+        margin-top: 0px;
+        width: 250px;
     }
     .vid__work2{
-        margin-left: 94px;
+        margin-left: 24px;
+        font-weight: 600;
+        font-size: 24px;
+        margin-top: 0px;
+        width: 250px;
     }
     .vid__work3{
-        margin-left: 94px;
+        margin-left: 24px;
         width: 330px;
+        font-weight: 600;
+        font-size: 24px;
+        margin-top: 0px;
+        width: 250px;
     }
     .vid__work4{
-        margin-left: 94px;
+        margin-left: 24px;
+        font-weight: 600;
+        font-size: 24px;
+        margin-top: 0px;
+        width: 250px;
     }
     .vid__work5{
-        margin-left: 94px;
+        margin-left: 24px;
         width: 330px;
+        font-weight: 600;
+        font-size: 24px;
+        margin-top: 0px;
+        width: 250px;
     }
     .vid__work6{
-        margin-left: 94px;
+        margin-left: 24px;
         margin-bottom: 50px;
+        font-weight: 600;
+        font-size: 24px;
+        margin-top: 0px;
+        width: 250px;
+        margin-bottom: 100px;
     }
+    /* ВИДЫ РАБОТ */
 }
