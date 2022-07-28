@@ -18,6 +18,20 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+/* ПОЛЗУНОК */
+html::-webkit-scrollbar {
+width: 16px;
+height: 16px;
+}
+
+html::-webkit-scrollbar-thumb {
+background: #3f3f3f;
+}
+
+html::-webkit-scrollbar-track {
+background-color: #EAD835;
+}
+/* ПОЛЗУНОК */
 
 /* make sure to set some focus styles for accessibility */
 :focus {
