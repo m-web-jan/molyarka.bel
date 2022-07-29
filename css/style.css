@@ -695,6 +695,7 @@ body{
     line-height: 57px;
     color: white;
     margin-left: 660px;
+    padding: 33px 0;
 }
 
 #slider { /*положение слайдера*/
@@ -978,6 +979,7 @@ label, a{ /*при наведении на стрелки или переклю�
         width: 139px;
         height: 41px;
         font-size: 36px;
+        padding: 33px 0;
         margin-left: auto;
         margin-right: auto;
     }
