@@ -9,7 +9,6 @@ body{
 }
 section.gallery{
   position: relative;
-  padding: 45px 0;
 }
 h2.title{
   font-size: 44px;
@@ -77,10 +76,5 @@ h2.title:after{
 @media (max-width: 768px){
   .gallery-item{
     flex: 50%;
-  }
-}
-@media (max-width: 530px){
-  .gallery-item{
-    flex: 100%;
   }
 }
