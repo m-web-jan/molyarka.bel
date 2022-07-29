@@ -18,67 +18,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-* {
-    box-sizing: border-box;
-}
 
-body {
-    margin: 0;
-    font-family: Arial;
-}
-
-/* The grid: Four equal columns that floats next to each other */
-.gal-column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-}
-
-/* Style the images inside the grid */
-.gal-column img {
-    /* opacity: 0.8;  */
-    cursor: pointer; 
-}
-
-.gal-column img:hover {
-    opacity: 1;
-}
-/* Clear floats after the columns */
-.gal-row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* The expanding image container */
-.gal-container {
-    /* position: absolute; */
-    display: none;
-}
-
-/* Expanding image text */
-#imgtext {
-    position: static;
-    bottom: 15px;
-    left: 15px;
-    color: white;
-    font-size: 20px;
-}
-
-/* Closable button inside the expanded image */
-.gal-closebtn {
-    position: inherit;
-    top: 10px;
-    right: 15px;
-    color: white;
-    font-size: 35px;
-    cursor: pointer;
-    margin-left: 64%;
-}
-.gal-container img{
-    width:33%;
-    margin-left:33%;
-}
 /* ПОЛЗУНОК */
 html::-webkit-scrollbar {
 width: 16px;
@@ -922,8 +862,13 @@ label, a{ /*при наведении на стрелки или переклю�
     margin-left: 900px;
     margin-bottom: 162px;
 }
-
-
+.arrow-left{
+    position: absolute;
+    width: 1%;
+}
+.arrow-right{
+    position: absolute;
+}
 
 @media screen and (max-width: 576px) {
     /* НАВИГАЦИЯ ДЛЯ ТЕЛЕФОНА */
